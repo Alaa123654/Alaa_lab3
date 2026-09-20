@@ -1,4 +1,4 @@
-1 ?- consult(['d:/aluoa/Documents/Alaa.pl.txt']).
+1 ?- consult(['Alaa.pl']).
 true.
 
 2 ?- father(ahmad, sara).
