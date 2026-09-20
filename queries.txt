@@ -1,0 +1,26 @@
+1 ?- consult(['d:/aluoa/Documents/Alaa.pl.txt']).
+true.
+
+2 ?- father(ahmad, sara).
+true.
+
+3 ?- father(amal, lama).
+false.
+
+4 ?- mother(amal, lama).
+true.
+
+5 ?- mother(ahmad, sara).
+false.
+
+6 ?- brother(abdullah, sara).
+true.
+
+7 ?- brother(sara, abdullah).
+false.
+
+8 ?- sister(sara, abdullah).
+true.
+
+9 ?- sister(abdullah, sara).
+false.
